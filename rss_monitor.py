@@ -276,7 +276,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    while True:
-        asyncio.run(main())
+    asyncio.run(main())
 
 
