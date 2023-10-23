@@ -128,7 +128,7 @@ async def extract_links_from_filing(url):
 import pandas as pd
 async def main():
     
-    df = pd.read_csv('all_markets\ciks.csv')
+    df = pd.read_csv('ciks.csv')
     for i in real_subs:
 
         cik = get_cik_by_ticker(df, i)
