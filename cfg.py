@@ -22,7 +22,7 @@ fifteen_days_from_now_str = (datetime.now() + timedelta(days=15)).strftime('%Y-%
 two_years_ago_str = (datetime.now() - timedelta(days=730)).strftime('%Y-%m-%d')
 two_years_from_now_str = (datetime.now() + timedelta(days=730)).strftime('%Y-%m-%d')
 thirty_days_from_now_str = (datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d')
-
+fudstop='https://media.discordapp.net/attachments/938986871223091231/941121473450491934/FS_Logo_5.gif'
 
 headers_sec = {
     "Accept": "application/json",
